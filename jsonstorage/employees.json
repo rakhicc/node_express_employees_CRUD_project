@@ -1,0 +1,36 @@
+[
+    {
+        "id": 2,
+        "firstname": "Matt",
+        "Lastname": "River",
+        "department": "ict",
+        "salary": 4000
+    },
+    {
+        "id": 3,
+        "firstname": "Reshma",
+        "department": "ICT",
+        "salary": 5000
+    },
+    {
+        "id": 4,
+        "firstname": "Vinod",
+        "Lastname": "Viswanathan",
+        "department": "Nursing",
+        "salary": 6000
+    },
+    {
+        "id": 5,
+        "firstname": "Rakhi",
+        "Lastname": "Vinod",
+        "department": "ICT",
+        "salary": 3000
+    },
+    {
+        "id": 1,
+        "firstname": "Vera",
+        "Lastname": "River",
+        "department": "CS",
+        "salary": 4000
+    }
+]
