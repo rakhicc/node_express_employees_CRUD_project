@@ -8,9 +8,10 @@
     },
     {
         "id": 3,
-        "firstname": "Reshma",
-        "department": "ICT",
-        "salary": 5000
+        "firstname": "Reshma george",
+        "department": "ece",
+        "salary": 6700,
+        "Lastname": "george"
     },
     {
         "id": 4,

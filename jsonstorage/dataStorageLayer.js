@@ -57,10 +57,10 @@ module.exports = class Datastorage {
         if (await updateStorage(employee)) {
           resolve(MESSAGES.UPDATE_OK(employee.id));
         } else {
-          reject(MESSAGES.NOT_UPDATED);
+          reject(MESSAGES.NOT_UPDATED());
         }
       } else {
-        reject(MESSAGES.NOT_UPDATED);
+        reject(MESSAGES.NOT_UPDATED());
       }
     });
   }
