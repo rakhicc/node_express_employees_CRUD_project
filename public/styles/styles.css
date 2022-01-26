@@ -1,37 +1,56 @@
-input[readonly]{
-  background-color:lightgray;
+input[readonly] {
+  background-color: lightgray;
 }
-main,form{
-  display:grid;
-  align-items:center;
+main,
+form {
+  display: grid;
+  align-items: center;
   justify-items: center;
 }
-table{
-  border-collapse:collapse;
+table {
+  border-collapse: collapse;
   margin-bottom: 1rem;
 }
-table, th,td{
-border:solod black 1px;
-padding:0.5rem
+table,
+th,
+td {
+  border: solod black 1px;
+  padding: 0.5rem;
 }
-thead{
+thead {
   background-color: khaki;
 }
-button{
-  font-family:  sans-serif;
-  width:13rem;
-  height:2rem;
-  margin:1rem;
+button {
+  font-family: sans-serif;
+  width: 13rem;
+  height: 2rem;
+  margin: 1rem;
   background-color: lightcoral;
 }
-p.info{
-  border:solid green 2px;
-  padding:1rem;
+p.info {
+  border: solid green 2px;
+  padding: 1rem;
 }
-p.error{
-  border:dashed red 2px;
-  padding:1rem;
+p.error {
+  border: dashed red 2px;
+  padding: 1rem;
 }
-h1.error{
-  color:red;
+h1.error {
+  color: red;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
